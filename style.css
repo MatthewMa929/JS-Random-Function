@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: lightblue;
+}
+
+div {
+    position: absolute; /* I dont like items moving */
+    transform: translateY(80px);
+}
